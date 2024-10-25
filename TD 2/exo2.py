@@ -1,0 +1,6 @@
+entier_2 = int(input('entre un nombre: '))  
+entier_3 = int(input('entre un autre nombre: ')) 
+entier_1 = int(input('entre un dernier nombre: ')) 
+maximum = max(entier_1, entier_2, entier_3)
+minimum = min(entier_1, entier_2, entier_3)
+print(f'le maximum nombre est: {maximum}\nle minumum nombre est:{minimum}')
